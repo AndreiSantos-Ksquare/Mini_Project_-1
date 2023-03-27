@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mini Project #1</title>
+        <style> @import url("styles.css"); </style>
+    </head>
+    <body>
+        <header>
+            <section class="flex-row width-xlg">
+                <h1 id="headerTitle" class="header-title">Mini Project #1</h1>
+            </section>
+        </header>
+
+        <main>
+            <section id="mainContent" class="grid-main-template">
+                <section id="adviceContent" class="grid-advice-content">
+                    <section id="advice" class="grid-advice">
+                        <section id="adviceTextSection">
+                            <h2 id="adviceText" class="advice-text margin-left margin-right"></h2>
+                        </section>
+                    </section>
+
+                    <section id="buttonsContent" class="grid-buttons">
+                        <section id="changeAdviceSection" class="grid-change-button flex-row">
+                            <section class="flex-row">
+                                <input id="buttonChange" type="button" onclick="getAdvice()"
+                                    class="button-change" value="Another One Please">
+                            </section>
+                        </section>
+
+                        <section id="shareSection" class="grid-share-button">
+                            <section class="flex-right">
+                                <button type="button" class="button-share"
+                                    onclick="shareTwitter()"></button>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
